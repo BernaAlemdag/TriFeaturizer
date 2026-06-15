@@ -1,12 +1,9 @@
 # 🧪 TriFeaturizer
 
-**A multi-domain molecular feature extractor.** Turn protein/peptide sequences, small-molecule SMILES, and inorganic materials (chemical formulas or CIF crystal structures) into complete, machine-learning-ready feature sets — one item at a time, or for a whole uploaded dataset at once.
+**A multi-domain molecular feature extractor.** Turn protein/peptide sequences, small-molecule SMILES, and inorganic materials (chemical formulas or CIF crystal structures) into complete, machine-learning-ready feature sets one item at a time, or for a whole uploaded dataset at once.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/REPO/blob/main/TriFeaturizer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/REPO/blob/main/TriFeaturizer.v2.ipynb)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-
-
-> Replace `USERNAME/REPO` in the Colab badge and the links below with your own GitHub path after you upload.
 
 ---
 
@@ -141,9 +138,9 @@ TriFeaturizer is a thin, user-friendly layer over established open-source librar
 
 This is a **harmless warning, not an error**. A materials-stack dependency upgrades `requests`, which no longer matches the version `google-colab` declares. Feature extraction is unaffected. To silence it, run `!pip -q install "requests==2.32.4"` and then **Runtime ▸ Restart session**, or install with the pin: `!pip -q install matminer dscribe "requests==2.32.4"`.
 
-**matminer / pymatgen install takes a couple of minutes** — that's expected; it pulls a large dependency chain (pymatgen + ASE).
+**matminer / pymatgen install takes a couple of minutes** that's expected; it pulls a large dependency chain (pymatgen + ASE).
 
-**Materials warning** — matminer is built for *inorganic* compositions and crystals. Rule of thumb: organic / connectivity matters → Part 2 (SMILES); oxide, alloy, crystal → Part 3.
+**Materials warning**  matminer is built for *inorganic* compositions and crystals. Rule of thumb: organic / connectivity matters → Part 2 (SMILES); oxide, alloy, crystal → Part 3.
 
 
 
