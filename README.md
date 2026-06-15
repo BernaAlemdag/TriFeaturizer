@@ -102,7 +102,7 @@ Rows that can't be parsed are reported and skipped (they don't stop the run); de
 | Composition | 142 | 132 Magpie (22 element properties × 6 statistics) + 4 valence-orbital fractions + 6 stoichiometry norms |
 | CIF structure | 8 + SOAP | 3 density + 5 symmetry features, plus an optional SOAP block (≈ 390–1500, growing with the number of distinct elements) |
 
-Every individual feature name and meaning is documented in **[`docs/TriFeaturizer_Feature_Reference.docx`](docs/TriFeaturizer_Feature_Reference.docx)**.
+Every individual feature name and meaning is documented in **TriFeaturizer_Manual.pdf**.
 
 ---
 
