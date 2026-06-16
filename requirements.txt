@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+matplotlib
+openpyxl
+biopython
+peptides
+rdkit
+mordredcommunity
+pymatgen
+matminer
+dscribe
