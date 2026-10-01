@@ -1,11 +1,11 @@
 # TriFeaturizer 🧪
 
-Multi-domain molecular feature extractor — web app version, converted from the
+Multi-domain molecular feature extractor, web app version, converted from the
 original Colab notebook (`TriFeaturizer_v2.ipynb`).
 
 Turn a **protein/peptide sequence**, a **small-molecule SMILES**, or an
 **inorganic material** (chemical formula or CIF crystal structure) into a
-machine-learning-ready feature set — one item at a time, or as a batch
+machine-learning-ready feature set, one item at a time, or as a batch
 Excel export.
 
 ## Repository structure
@@ -22,28 +22,19 @@ trifeaturizer/
     └── shared.py            # Table rendering, CSV/Excel download helpers
 ```
 
-## Run locally
-
-```bash
-pip install -r requirements.txt
-streamlit run App.py
-```
-
-This opens a browser tab at `http://localhost:8501`. Editing any file and
-saving auto-reloads the page.
 
 ## Deploy
 
-**Option A — Render**
+**Option A - Render**
 1. Push this folder to a GitHub repo.
 2. On Render, create a new "Web Service", connect the repo.
 3. Build command: `pip install -r requirements.txt`
 4. Start command: `streamlit run App.py --server.port $PORT --server.address 0.0.0.0`
 
-**Option B — Streamlit Community Cloud**
+**Option B - Streamlit Community Cloud**
 1. Push this folder to a GitHub repo.
 2. Go to share.streamlit.io, connect the repo, point it at `App.py`.
-3. Done — no start command needed, it's built for this.
+3. Done no start command needed, it's built for this.
 
 ## Note on install size
 
